@@ -1,0 +1,61 @@
+.searchbar{
+  width: auto;
+  height: 30px;
+  text-align: center;
+}
+.p1{
+  text-align: center;
+}
+ul.brands{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+.brands li{
+  display: inline-block;
+  padding-inline: 10px;
+  text-align: center;
+}
+
+.center{
+  margin: auto;
+  width: 62.25%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  
+}
+
+.container{
+  width: 900px;
+  margin: 0 auto;
+  padding:75px;
+  text-align: center;
+}
+
+.cars{
+  position: relative;
+  width: 240px;
+  display: inline-block;
+  margin:20px;
+}
+
+.sidebar{
+  float:left;
+  position:relative;
+  margin:20px;
+  height: 500px;
+  width: 200px;
+  
+}
+
+.logo{
+  float:left;
+  position:absolute;
+  margin:10px;
+  width:100px;
+  display: inline;
+  
+  
+}

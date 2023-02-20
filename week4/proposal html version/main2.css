@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+  }
+
+  * {
+    box-sizing:border-box;
+  }
+
+
+  .clearfix::after {
+    display: block;
+    clear:both;
+    /* ensure cross browser compatability */
+    height:0;
+    font-size:0;
+    content: '';
+    /* super paranoid mode */
+    visibility: hidden;
+  }
+
+  div, header, section, article, aside, footer, main {
+    min-height:100px;
+    /* RGBA */
+    background-color: rgba(0,100,255,0.2);
+  }
